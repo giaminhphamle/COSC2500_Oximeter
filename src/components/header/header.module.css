@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.space {
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #505256;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.menuItem:hover {
+    color: black;
+}
