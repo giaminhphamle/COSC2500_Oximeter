@@ -7,7 +7,7 @@ const Button: FC<ButtonProps> = (props: ButtonProps): JSX.Element => {
 	return (
 		<>
 			<button
-				className={`mt-5 ${Styles.button} ${getStyleTypeStyle(Styles, props.type)}`}
+				className={`${Styles.button} ${getStyleTypeStyle(Styles, props.type)}`}
 				onClick={props.onClick}
 			>
 				{props.text}
